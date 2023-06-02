@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+}
+
+#grid {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: [row1-start] 20% [row1-end] 65% [third-line] 15% [last-line];
+}
+
+#grid-child-1 {
+    text-align: center;
+    align-self: center;
+}
+
+#h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Monomaniac One', sans-serif;
+    letter-spacing: 5px;
+}
+
+#h2 {
+    color: gray;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+    font-family: "Helvetica",arial,sans-serif;
+}
+
+#navbar {
+    
+}
+
+.navbar-child {
+    display: inline-block;
+    padding: 0 15px 0 15px;
+}
+
+.navbar-child a {
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+    font-family: "Helvetica",arial,sans-serif;
+    font-weight: bold;
+}
+
+#active-page a {
+    color: black;
+}
+
+
+#grid-child-2 {
+    justify-self: center;
+}
+
+#grid-child-2 img {
+    height: 100%;
+}
+
+#grid-child-3 {
+    text-align: center;
+    display: inline-grid;
+}
+
+#i-container {
+    display: block;
+    align-self: end;
+}
+
+#i-container i{
+    font-size: 20px;
+    padding: 0 10px 0 10px;
+}
+
+#grid-child-3 p {
+    display: block;
+    align-self: end;
+}
