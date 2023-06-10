@@ -9,7 +9,6 @@ body {
 }
 
 #grid-child-1 {
-    align-self: center;
     text-align: center;
 }
 
@@ -46,6 +45,7 @@ body {
 }
 
 #grid-child-2 {
+    display: grid;
     justify-self: center;
     position: relative;
 }
@@ -98,7 +98,9 @@ body {
 }
 
 #grid-child-2 img {
-    height: 100%;
+    align-self: center;
+    max-height: 65vh;
+    max-width: 100%;
 }
 
 #grid-child-3 {
