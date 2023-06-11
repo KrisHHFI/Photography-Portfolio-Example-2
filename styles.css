@@ -59,6 +59,8 @@ body {
     display: grid;
     justify-self: center;
     position: relative;
+    align-self: center;
+
 }
 
 .mySlides {
@@ -109,7 +111,6 @@ body {
 }
 
 #grid-child-2 img {
-    align-self: center;
     max-height: 65vh;
     max-width: 100%;
 }
@@ -133,4 +134,23 @@ body {
 #grid-child-3 p {
     align-self: end;
     display: block;
+}
+
+@media (max-height:600px) {
+    #h1 {
+        font-size: clamp(25px, 7vh, 40px);
+    }
+
+    #h2 {
+        display: none;
+    }
+
+    #grid-child-3 p {
+        margin: 0px 0px 5px 0px;
+        font-size: clamp(10px, 3vh, 15px);
+    }
+
+    #grid-child-3 i {
+        font-size: clamp(15px, 3vh, 20px);
+    }
 }
