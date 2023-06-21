@@ -7,24 +7,24 @@ body {
     height: 100vh;
 }
 
-#grid-child-1 {
+header {
     text-align: center;
 }
 
 @media (max-width: 800px) {
-    #grid-child-1 {
+    header {
         align-self: center;
     }
 }
 
-#h1 {
+#header-title {
     font-family: 'Monomaniac One', sans-serif;
     font-size: clamp(25px, 7vw, 40px);
     text-transform: uppercase; 
     letter-spacing: 5px;
 }
 
-#h2 {
+#header-subtitle {
     color: gray;
     font-family: "Helvetica", arial, sans-serif;
     font-size: 15px;
@@ -51,14 +51,18 @@ body {
     font-weight: bold;
 }
 
+#active-page a {
+    color: black;
+}
+
+.navbar-child a:hover {
+    color: black;
+}
+
 @media (max-width: 300px) {
     .navbar-child a {
         font-size: 12.5px;
     }
-}
-
-#active-page a {
-    color: black;
 }
 
 #grid-child-2 {
@@ -121,7 +125,7 @@ body {
     max-width: 100%;
 }
 
-#grid-child-3 {
+footer {
     display: inline-grid;
     text-align: center;
 }
@@ -137,26 +141,26 @@ body {
     padding: 0 10px 0 10px;
 }
 
-#grid-child-3 p {
+footer p {
     align-self: end;
     display: block;
 }
 
 @media (max-height:600px) {
-    #h1 {
+    #header-title {
         font-size: clamp(25px, 7vh, 40px);
     }
 
-    #h2 {
+    #header-subtitle {
         display: none;
     }
 
-    #grid-child-3 p {
+    footer p {
         margin: 0px 0px 5px 0px;
         font-size: clamp(10px, 3vh, 15px);
     }
 
-    #grid-child-3 i {
+    footer i {
         font-size: clamp(15px, 3vh, 20px);
     }
 }
