@@ -2,6 +2,8 @@
 
 <img src="https://images.squarespace-cdn.com/content/v1/587b630aebbd1ab22efeeb6b/48c6f34a-9547-448b-aa23-abfc3674f17a/Website+portfolio+page+demo+collage+3.png"/>
 
+Check out the [demo video](https://youtu.be/oOzM2KCLcTE).
+
 ### Launch the page
 
 1) Download the folder.
