@@ -2,8 +2,6 @@
 
 <img src="Portfolio2.png"/>
 
-Check out the [demo video](https://youtu.be/oOzM2KCLcTE).
-
 ### Launch the page
 
 1) Download the folder.
